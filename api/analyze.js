@@ -3,13 +3,17 @@ export const config = {
 };
 
 const PATTERNS = {
+  "otp": 2,
+  "bank otp": 3,
   "share otp": 3,
+  "give me your otp": 3,
   "account blocked": 3,
   "press 1": 2,
   "legal action": 3,
   "urgent": 1,
-  "bank officer": 2,
+  "bank": 1
 };
+
 
 export default async function handler(req) {
   if (req.method !== "POST") {
