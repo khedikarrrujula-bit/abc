@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  background: #f1f5f9;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding: 12px;
+  width: 80%;
+}
